@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* share style */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.primary-color {
+    color: orange;
+
+}
+
+.secondary-color {
+    color: skyblue;
+
+}
+
+.standard-size {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+.primary-btn {
+    width: 197px;
+    height: 50px;
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+}
+
+/* nav section style */
+.school-part1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.school-logo {
+    width: 62px;
+    height: 62px;
+}
+
+.school-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.home {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.facilities {
+    color: #05d4df;
+}
+
+.admission {
+    color: #5d58ef;
+}
+
+.nav-poperty {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.school-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* banner section */
+.hero-btn {
+    background-color: black;
+    width: 197px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+}
+
+.hero-description {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.hero-sub {
+    width: 640px;
+    height: 330px;
+    /* margin-left: 141px; */
+    padding-right: 50px;
+}
+
+.hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-size: 800;
+
+}
+
+.hero-image {
+    width: 468px;
+    height: 575px;
+
+}
+
+.hero-header {
+    width: 640px;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+/* curriculum style */
+
+.curriculum-container {
+    font-size: 2.9rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 60px auto;
+    background-image: url(../assets/bg.png);
+    /* width: 100%;
+    height: 100vh; */
+
+
+}
+
+.box-container {
+    width: 367px;
+    height: 476px;
+    border-radius: 19px;
+    box-shadow: 0px 33px 25px 0 rgba(8, 4, 197, 0.16);
+    background: linear-gradient(#DEF5FF, #fff);
+
+
+}
+
+.box-container-1 {
+    width: 367px;
+    height: 476px;
+    border-radius: 19px;
+    box-shadow: 0px 33px 25px 0 rgba(8, 4, 197, 0.16);
+    background: linear-gradient(#FFF4DC, #fff);
+
+
+}
+
+.box-container-2 {
+    width: 367px;
+    height: 476px;
+    border-radius: 19px;
+    box-shadow: 0px 33px 25px 0 rgba(8, 4, 197, 0.16);
+    background: linear-gradient(#F2E8FF, #fff);
+
+
+}
+
+.box-img {
+
+    margin: 52px 115px 20px 115px;
+    width: 136px;
+    height: 136px;
+
+}
+
+.box-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0px;
+
+}
+
+.box-description {
+    width: 286px;
+    height: 75px;
+    line-height: 28px;
+    color: #808080;
+    margin: 0px 40px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.read-more {
+    margin: 33px 132px;
+    color: #64C8FF;
+
+}
+
+.read-more-1 {
+    margin: 33px 132px;
+    color: #F0AA00;
+
+}
+
+.read-more-2 {
+    margin: 33px 132px;
+    color: #8700FF;
+
+}
+
+.main-box {
+    gap: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chevron {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    border-radius: 50px;
+
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .nav-poperty {
+        flex-direction: column;
+
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+
+    }
+
+
+}
