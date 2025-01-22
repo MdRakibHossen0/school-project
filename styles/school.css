@@ -530,14 +530,13 @@ ul {
         margin-left: 20px;
     }
 
-
-
     .humburger-menu {
-        width: 100%;
+
         visibility: visible;
         width: 100%;
         display: contents;
-        margin-left: 390px;
+        margin-left: 440px;
+        padding-left: 20px;
     }
 
     hr.orange {
@@ -579,6 +578,15 @@ ul {
     .hero-btn {
         width: 131px;
         height: 40px;
+    }
+
+    .nav-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
     }
 
     /* ************************************************************* Standard curriculum*****/
@@ -673,7 +681,6 @@ ul {
         padding: 0px;
         margin-left: 10px;
 
-
     }
 
     .about-container {
@@ -700,14 +707,10 @@ ul {
         width: 100%;
         margin-left: 10px;
 
-
     }
 
     .Keep-container {
         width: 100%;
-
-
-
     }
 
     /* **************************************************************** */
@@ -719,8 +722,6 @@ ul {
     .stories-container {
         margin: 0px;
     }
-
-
 
     .Keep-container {
         margin: 0px;
