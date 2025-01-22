@@ -528,7 +528,7 @@ ul {
     .humburger-menu {
         width: 100%;
         display: contents;
-        margin-left: 400px;
+        margin-left: 290px;
     }
 
     hr.orange {
@@ -693,9 +693,10 @@ ul {
     }
 
     /* **************************************************************** */
-    .main-image-container {
-        width: 100%;
-    }
+    /* .main-image-container {
+      max-width: 200px;
+       margin-rig: 150px;
+    } */
 
     .Stories {
         text-align: center;
@@ -751,20 +752,32 @@ ul {
     }
 
     .image-container {
-        align-items: center;
-        justify-content: center;
+
+        /* align-items: center;
+        justify-content: center; */
         gap: 10px;
     }
 
     .view-all {
-        width: 390px;
+        width: 290px;
         padding-bottom: 30px;
         text-align: center;
     }
 
     .main-image-container {
-        margin: 0px;
+
+        max-width: 100%;
+        /* margin: 100px; */
+        
     }
+
+    .border {
+        border: 2px solid red;
+        width: 576px;
+        height: 1000px;
+    }
+
+
 
 
 }
