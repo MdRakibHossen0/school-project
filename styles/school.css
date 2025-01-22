@@ -15,7 +15,18 @@
     font-style: normal;
 }
 
+/* * {
+    margin: 2px;
+} */
+
 /* share style */
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
 
 .bg-white {
     background-color: white;
@@ -67,20 +78,31 @@ body {
     text-align: left;
 }
 
-/* nav section style */
+/* nav section style********************************************* */
+hr.orange {
+    display: none;
+    border: 1px solid orange;
+}
+
 .humburger-menu {
     display: none;
 }
 
+.marquee {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
 .school-part1 {
     display: flex;
-    text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .school-logo {
     width: 62px;
     height: 62px;
+    margin-left: 140px;
 }
 
 .school-title {
@@ -122,14 +144,14 @@ body {
 }
 
 .nav-container {
-    width: 1158px;
-    margin-left: 80px;
+    width: 1240px;
+    /* margin-left: 10px auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* banner section ************************************************************/
+/* banner section *****************************************************banner****************/
 .humburger-menu {
     visibility: hidden;
 }
@@ -160,8 +182,8 @@ body {
     max-width: 1160px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-title {
@@ -185,16 +207,13 @@ body {
     background-image: url(../assets/bg.png);
     height: 800px;
     width: 1440px;
-
+    display: none;
 }
-
 
 .curriculum-title {
     font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
-
-
 }
 
 .box-container {
@@ -202,7 +221,7 @@ body {
     width: 367px;
     height: 476px;
     border-radius: 19px;
-    box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     background: linear-gradient(#def5ff, #fff);
 }
 
@@ -211,17 +230,15 @@ body {
     width: 367px;
     height: 476px;
     border-radius: 19px;
-    box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
-    background: linear-gradient(#fff4dc, #fff);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#fff3d9, #fff);
 }
 
 .box-container-2 {
     width: 367px;
     height: 476px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-
-    box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
+    border-radius: 19px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
     background: linear-gradient(#f2e8ff, #fff);
 }
 
@@ -298,14 +315,12 @@ body {
     width: 1440px;
 
     /* margin-left: 100px; */
-
 }
 
 .stories-container {
     font-size: 2.9rem;
     font-weight: 800;
     text-align: center;
-
 }
 
 .date {
@@ -325,36 +340,41 @@ body {
     width: 540px;
     height: 630px;
     background-color: white;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    overflow: hidden;
 }
 
 .stories-image-2 {
     width: 290px;
     height: 300px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    overflow: hidden;
 }
 
 .stories-image-3 {
     width: 290px;
     height: 300px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    overflow: hidden;
 }
 
 .stories-image-4 {
     width: 290px;
     height: 300px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    overflow: hidden;
 }
 
 .stories-image-5 {
     width: 290px;
     height: 300px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    overflow: hidden;
 }
 
 .date-2 {
@@ -385,16 +405,22 @@ body {
 }
 
 .main-image-container {
-    margin: 100px;
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 20px;
 }
 
 .view-all {
-    /* padding: 80px; */
+    padding: 80px;
 }
 
-/* footer *****************************************************************************/
+/* footer *******************************************************************footer**********/
+
+.footer-Kids {
+    margin-left: 10px;
+}
+
 .footer-logo {
     width: 82px;
     height: 82px;
@@ -413,12 +439,10 @@ body {
 .footer {
     padding-left: 120px;
     height: 520px;
-    /* margin-left: 130px; */
 }
 
 .footer-main {
     width: 1440px;
-    /* margin-left: 100px; */
     background-color: #01acfd;
 }
 
@@ -459,31 +483,28 @@ ul {
 
 .about-footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Keep-container {
-    margin-top: 45px;
-    margin-left: 120px;
+    padding-bottom: 30px;
+    margin-left: 180px;
 }
 
-/* media query */
+.about-container {
+    margin-left: 150px;
+}
+
+/* media query **************************************************media query**************/
 @media screen and (max-width: 576px) {
     .hero {
         flex-direction: column-reverse;
     }
 
     .main-box,
-    .footer-main,
     .about-footer {
         flex-direction: column;
-    }
-
-    .main-image-container {
-        width: 390px;
-    }
-
-    .school-logo {
-        margin: 0px;
     }
 
     .nav-poperty,
@@ -494,26 +515,185 @@ ul {
         display: none;
     }
 
+    /* ************************************************************************************** Nav  */
+    .school-logo {
+        margin-left: 20px;
+    }
+
+    .humburger-menu {
+        visibility: visible;
+    }
+
     .humburger-menu {
         width: 100%;
         display: contents;
-        margin-left: 300px;
+        margin-left: 440px;
     }
 
+    hr.orange {
+        display: block;
+        border: 1px solid orange;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
 
     .hero {
-        width: 336px;
-        margin: 0px;
-        align-items: start;
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero-sub {
+        margin-top: 20px;
+        padding: 0px;
+        width: 100%;
+        height: 252px;
+        text-align: center;
     }
 
     .hero-header {
-        margin: 20px 16px;
-        text-align: center;
-        width: 350px;
-        height: 120px;
+        width: 100%;
+        margin: 0px auto;
         font-size: 2rem;
         font-weight: 800;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        font-size: 600;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 131px;
+        height: 40px;
+    }
+
+    /* *************************************************************************************** Standard curriculum*/
+    .curriculum {
+        width: 100%;
+        height: 1492px;
+        display: contents;
+    }
+
+    .curriculum-title {
+        margin-top: 100px;
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .box-img {
+        padding-left: 90px;
+    }
+
+    .box-description {
+        width: 90%;
+        text-align: center;
+    }
+
+    .read-more {
+        width: 50%;
+    }
+
+    .box-container-1 {
+        margin-left: 140px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .read-more-1 {
+        width: 50%;
+    }
+
+    .box-container-2 {
+        margin-left: 140px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .read-more-2 {
+        width: 50%;
+    }
+
+    /* ******************************************************************** */
+
+    .story-main {
+        overflow: hidden;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .image-1 {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .image-title {
+        padding-left: 20px;
+    }
+
+    /* ************************************************************************* */
+
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+
+    }
+
+    .about-footer {}
+
+    .footer {
+
+        width: 100%;
+        height: 350px;
+        padding: 0px;
+        margin-left: 10px;
+
+
+    }
+
+    .about-container {
+        margin-left: 0px;
+    }
+
+    .about-title {
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+
+    }
+
+    .about-iteams {
+        padding: 0px;
+    }
+
+    .div-about-title {
+
+        justify-content: left;
+    }
+
+    .about-container {
+        width: 100%;
+        margin-left: 10px;
+
+
+    }
+
+    .Keep-container {
+        width: 100%;
+
+
+
+    }
+
+    /* **************************************************************** */
+    .main-image-container {
+        width: 100%;
     }
 
     .Stories {
@@ -524,48 +704,7 @@ ul {
         margin: 0px;
     }
 
-    .hero-sub {
-        padding: 0px;
-        width: 355px;
-        height: 252px;
-        text-align: center;
-    }
 
-    .hero-btn {
-        width: 131px;
-        height: 40px;
-    }
-
-    .hero-description {
-        font-size: 14px;
-    }
-
-    .curriculum {
-        width: 360px;
-        height: 1492px;
-        margin: 100px;
-
-    }
-
-    .curriculum-title {
-        width: 260px;
-        font-size: 1.6rem;
-        font-weight: bold;
-        text-align: center;
-
-
-
-    }
-
-    .footer {
-        padding: 0px;
-        margin-left: 20px;
-        height: 270px;
-    }
-
-    .about-footer {
-        margin: 0px;
-    }
 
     .Keep-container {
         margin: 0px;
@@ -573,13 +712,8 @@ ul {
         padding-bottom: 30px;
     }
 
-    .hero-image {
-        width: 350px;
-        margin: 28px;
-    }
-
     .box {
-        width: 356px;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -589,7 +723,7 @@ ul {
     }
 
     .box-container {
-        margin-right: 150px;
+        width: 100%;
     }
 
     .box-container-1 {
@@ -605,17 +739,31 @@ ul {
         text-align: center;
     }
 
-    .humburger-menu {
-        visibility: visible;
-    }
-
     .Stories {
-        width: 390px;
+        width: 576px;
         font-size: 1.6rem;
         text-align: center;
     }
 
-   
+    .image-2 {
+        width: 100%;
+    }
 
-    
+    .image-container {
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .view-all {
+        width: 390px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .main-image-container {
+        margin: 0px;
+    }
+
+
 }
