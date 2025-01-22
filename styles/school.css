@@ -78,7 +78,7 @@ body {
     text-align: left;
 }
 
-/* nav section style********************************************* */
+/* nav section style*************************************************nav** */
 hr.orange {
     display: none;
     border: 1px solid orange;
@@ -144,11 +144,9 @@ hr.orange {
 }
 
 .nav-container {
-    width: 1240px;
-    /* margin-left: 10px auto; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+
+
 }
 
 /* banner section *****************************************************banner****************/
@@ -303,7 +301,7 @@ hr.orange {
 
 .icon {
     display: flex;
-    margin: 80px 640px;
+    margin: 80px 580px;
     gap: 10px;
 }
 
@@ -312,7 +310,7 @@ hr.orange {
 .story-main {
     background-image: url(../assets/bg.png),
         linear-gradient(rgb(255, 255, 255), rgb(246, 234, 214));
-    width: 1440px;
+    width: 100%;
 
     /* margin-left: 100px; */
 }
@@ -516,7 +514,7 @@ ul {
         display: none;
     }
 
-    /* ************************************************************************************** Nav  */
+    /* ********************************************************************** Nav *******8 */
     .school-logo {
         margin-left: 20px;
     }
@@ -528,7 +526,7 @@ ul {
     .humburger-menu {
         width: 100%;
         display: contents;
-        margin-left: 290px;
+        margin-left: 440px;
     }
 
     hr.orange {
@@ -572,7 +570,7 @@ ul {
         height: 40px;
     }
 
-    /* *************************************************************************************** Standard curriculum*/
+    /* ************************************************************* Standard curriculum*****/
     .curriculum {
         width: 100%;
         height: 1492px;
@@ -620,12 +618,21 @@ ul {
         width: 50%;
     }
 
-    /* ******************************************************************** */
+    /* *****************************************************************stories*** */
+
+    .stories-image-2,
+    .stories-image-3,
+    .stories-image-4,
+    .stories-image-5 {
+        width: 100%;
+
+    }
 
     .story-main {
         overflow: hidden;
         margin-top: 100px;
         width: 100%;
+
     }
 
     .image-1 {
@@ -637,7 +644,7 @@ ul {
         padding-left: 20px;
     }
 
-    /* ************************************************************************* */
+    /* *********************************************************************footer**** */
 
     .footer-main {
         display: grid;
@@ -693,10 +700,6 @@ ul {
     }
 
     /* **************************************************************** */
-    /* .main-image-container {
-      max-width: 200px;
-       margin-rig: 150px;
-    } */
 
     .Stories {
         text-align: center;
@@ -753,8 +756,6 @@ ul {
 
     .image-container {
 
-        /* align-items: center;
-        justify-content: center; */
         gap: 10px;
     }
 
@@ -764,18 +765,6 @@ ul {
         text-align: center;
     }
 
-    .main-image-container {
-
-        max-width: 100%;
-        /* margin: 100px; */
-        
-    }
-
-    .border {
-        border: 2px solid red;
-        width: 576px;
-        height: 1000px;
-    }
 
 
 
