@@ -663,6 +663,40 @@ ul {
         padding-left: 20px;
     }
 
+    .date-1,
+    .date-2,
+    .date-3,
+    .date-4 {
+        color: white;
+        font-size: 10px;
+        background-color: #3cd8e8;
+        width: 103px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 48px;
+        margin: 0px;
+
+    }
+
+    .date-2 {
+        background-color: #95B226;
+
+    }
+
+    .date-3 {
+        background-color: #5D58F0;
+    }
+
+    .position {
+        position: relative;
+        margin-top: -25px;
+        margin-left: 22px;
+    }
+
+
+
     /* *********************************************************************footer**** */
 
     .footer-main {
