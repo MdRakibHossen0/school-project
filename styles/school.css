@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 .raleway-font {
     font-family: "Raleway", serif;
@@ -28,23 +28,19 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .primary-color {
     color: orange;
-
 }
 
 .secondary-color {
     color: skyblue;
-
 }
 
 .standard-size {
     font-size: 1.25rem;
     font-weight: 600;
-
 }
 
 .primary-btn {
@@ -73,8 +69,6 @@ body {
 
 /* nav section style */
 .humburger-menu {
-
-
     display: none;
 }
 
@@ -82,7 +76,6 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-
 }
 
 .school-logo {
@@ -107,23 +100,19 @@ body {
     text-decoration: none;
 }
 
-
 .facilities {
     color: #05d4df;
     text-decoration: none;
-
 }
 
 .admission {
     color: #5d58ef;
     text-decoration: none;
-
 }
 
 .nav-poperty {
     display: flex;
     gap: 32px;
-
 }
 
 .school-part2 {
@@ -133,13 +122,18 @@ body {
 }
 
 .nav-container {
-    margin: 0px 140px;
+    width: 1158px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* banner section */
+/* banner section ************************************************************/
+.humburger-menu {
+    visibility: hidden;
+}
+
 .hero-btn {
     background-color: black;
     width: 197px;
@@ -163,7 +157,7 @@ body {
 
 .hero {
     margin: 0px 140px;
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -173,13 +167,11 @@ body {
 .hero-title {
     font-size: 3.5rem;
     font-size: 800;
-
 }
 
 .hero-image {
     width: 468px;
     height: 575px;
-
 }
 
 .hero-header {
@@ -188,38 +180,39 @@ body {
     font-weight: 800;
 }
 
-/* curriculum style */
-
-.curriculum-container {
-    font-size: 2.9rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 60px auto;
+/* curriculum style*************************************************curriculum style********** */
+.curriculum {
     background-image: url(../assets/bg.png);
-    /* width: 100%;
-    height: 100vh; */
+    height: 800px;
+    width: 1440px;
+
+}
+
+
+.curriculum-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
 
 
 }
 
 .box-container {
+    position: relative;
     width: 367px;
     height: 476px;
     border-radius: 19px;
     box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
-    background: linear-gradient(#DEF5FF, #fff);
-
-
+    background: linear-gradient(#def5ff, #fff);
 }
 
 .box-container-1 {
+    position: relative;
     width: 367px;
     height: 476px;
     border-radius: 19px;
     box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
-    background: linear-gradient(#FFF4DC, #fff);
-
-
+    background: linear-gradient(#fff4dc, #fff);
 }
 
 .box-container-2 {
@@ -228,25 +221,20 @@ body {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 
-    box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, .16);
-    background: linear-gradient(#F2E8FF, #fff);
-
-
+    box-shadow: 0px 0px 4px 0 rgba(1, 1, 1, 0.16);
+    background: linear-gradient(#f2e8ff, #fff);
 }
 
 .box-img {
-
     margin: 52px 115px 20px 115px;
     width: 136px;
     height: 136px;
-
 }
 
 .box-title {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 0px;
-
 }
 
 .box-description {
@@ -262,26 +250,23 @@ body {
 
 .read-more {
     margin: 33px 132px;
-    color: #64C8FF;
+    color: #64c8ff;
     background: transparent;
     border: none;
-
 }
 
 .read-more-1 {
     margin: 33px 132px;
-    color: #F0AA00;
+    color: #f0aa00;
     background: transparent;
     border: none;
-
 }
 
 .read-more-2 {
     margin: 33px 132px;
-    color: #8700FF;
+    color: #8700ff;
     background: transparent;
     border: none;
-
 }
 
 .main-box {
@@ -289,7 +274,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .chevron-1 {
@@ -298,35 +282,36 @@ body {
     padding: 30px;
     border-radius: 50px;
     background-color: orange;
-
-
 }
 
 .icon {
     display: flex;
     margin: 80px 640px;
     gap: 10px;
+}
+
+/* Ours stories****************************************************Ours stories************* */
+
+.story-main {
+    background-image: url(../assets/bg.png),
+        linear-gradient(rgb(255, 255, 255), rgb(246, 234, 214));
+    width: 1440px;
+
+    /* margin-left: 100px; */
 
 }
 
-
-
 .stories-container {
-
-    margin-left: 130px;
     font-size: 2.9rem;
     font-weight: 800;
     text-align: center;
-    background-image: url(../assets/bg.png), linear-gradient(rgb(255, 255, 255), rgb(246, 234, 214));
-    ;
-    height: 1020px;
-}
 
+}
 
 .date {
     color: white;
     font-size: 1rem;
-    background-color: #3CD8E8;
+    background-color: #3cd8e8;
     width: 175px;
     height: 48px;
     display: flex;
@@ -334,10 +319,6 @@ body {
     justify-content: center;
     border-radius: 48px;
     margin: 0px;
-
-
-
-
 }
 
 .stories-image-1 {
@@ -346,29 +327,43 @@ body {
     background-color: white;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
-
-
 }
-
 
 .stories-image-2 {
     width: 290px;
     height: 300px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
+}
 
+.stories-image-3 {
+    width: 290px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.stories-image-4 {
+    width: 290px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.stories-image-5 {
+    width: 290px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
 }
 
 .date-2 {
-
-    background-color: #95B226;
+    background-color: #95b226;
 }
 
 .date-3 {
-    background-color: #5D58F0;
-
+    background-color: #5d58f0;
 }
-
 
 .position {
     position: relative;
@@ -377,7 +372,6 @@ body {
 }
 
 .image-2-title {
-
     font-size: 1rem;
     font-weight: 800;
     text-align: left;
@@ -385,30 +379,26 @@ body {
 }
 
 .image-container {
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
 .main-image-container {
-
+    margin: 100px;
     display: flex;
     gap: 20px;
-
-
 }
 
 .view-all {
-    padding: 80px;
+    /* padding: 80px; */
 }
 
-/* footer */
+/* footer *****************************************************************************/
 .footer-logo {
     width: 82px;
     height: 82px;
     color: white;
-
 }
 
 .footer-title {
@@ -423,21 +413,19 @@ body {
 .footer {
     padding-left: 120px;
     height: 520px;
-    margin-left: 130px;
-
-
+    /* margin-left: 130px; */
 }
 
 .footer-main {
-    background-color: #01ACFD;
-
+    width: 1440px;
+    /* margin-left: 100px; */
+    background-color: #01acfd;
 }
 
 .main-footer {
     color: white;
     display: flex;
     align-items: center;
-
 }
 
 .footer-description {
@@ -450,17 +438,13 @@ body {
     font-size: 1.5rem;
     margin-top: 70px;
     margin-left: 40px;
-
-
 }
-
 
 .size {
     font-size: 1.25rem;
 }
 
 .decoration {
-
     text-decoration: none;
 }
 
@@ -469,25 +453,21 @@ ul {
 }
 
 .footer-main {
-
     display: flex;
     align-items: start;
 }
 
 .about-footer {
     display: flex;
-
 }
 
 .Keep-container {
     margin-top: 45px;
-    margin-left: 150px;
-
+    margin-left: 120px;
 }
 
 /* media query */
 @media screen and (max-width: 576px) {
-
     .hero {
         flex-direction: column-reverse;
     }
@@ -495,18 +475,15 @@ ul {
     .main-box,
     .footer-main,
     .about-footer {
-
         flex-direction: column;
     }
 
     .main-image-container {
         width: 390px;
-
     }
 
     .school-logo {
         margin: 0px;
-
     }
 
     .nav-poperty,
@@ -521,15 +498,8 @@ ul {
         width: 100%;
         display: contents;
         margin-left: 300px;
-
     }
 
-    .nav-container {
-        width: 390px;
-        height: 70px;
-        margin: 0px;
-
-    }
 
     .hero {
         width: 336px;
@@ -548,7 +518,6 @@ ul {
 
     .Stories {
         text-align: center;
-
     }
 
     .stories-container {
@@ -560,8 +529,6 @@ ul {
         width: 355px;
         height: 252px;
         text-align: center;
-
-
     }
 
     .hero-btn {
@@ -573,12 +540,21 @@ ul {
         font-size: 14px;
     }
 
-    .curriculum-container {
-        width: 261px;
-        height: 33px;
-        margin: 40px 64px;
-        font-size: 22px;
+    .curriculum {
+        width: 360px;
+        height: 1492px;
+        margin: 100px;
+
+    }
+
+    .curriculum-title {
+        width: 260px;
+        font-size: 1.6rem;
+        font-weight: bold;
         text-align: center;
+
+
+
     }
 
     .footer {
@@ -588,7 +564,6 @@ ul {
     }
 
     .about-footer {
-
         margin: 0px;
     }
 
@@ -607,7 +582,6 @@ ul {
         width: 356px;
         justify-content: center;
         align-items: center;
-
     }
 
     .hero-description {
@@ -629,26 +603,19 @@ ul {
     .Stories {
         font-size: 26px;
         text-align: center;
-
     }
 
-    .image-container {
-
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
+    .humburger-menu {
+        visibility: visible;
     }
 
+    .Stories {
+        width: 390px;
+        font-size: 1.6rem;
+        text-align: center;
+    }
 
+   
 
-
-
-
-
-
-
-
-
-
-
+    
 }
