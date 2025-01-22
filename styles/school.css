@@ -33,7 +33,7 @@
 }
 
 body {
-    max-width:100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ hr.orange {
 .school-logo {
     width: 62px;
     height: 62px;
-    margin-left: 140px;
+    margin-left: 40px;
 }
 
 .school-title {
@@ -129,26 +129,35 @@ hr.orange {
 }
 
 .nav-poperty {
+
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 24px;
+
 }
 
 .school-part2 {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .nav-container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 
 
+
+}
+
+.school-btn {
+    margin-right: 40px;
 }
 
 /* banner section *****************************************************banner****************/
@@ -521,14 +530,14 @@ ul {
         margin-left: 20px;
     }
 
-    .humburger-menu {
-        visibility: visible;
-    }
+
 
     .humburger-menu {
         width: 100%;
+        visibility: visible;
+        width: 100%;
         display: contents;
-        margin-left: 440px;
+        margin-left: 390px;
     }
 
     hr.orange {
