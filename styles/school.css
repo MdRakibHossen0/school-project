@@ -15,11 +15,7 @@
     font-style: normal;
 }
 
-/* * {
-    margin: 2px;
-} */
 
-/* share style */
 .red {
     color: red;
 }
@@ -37,7 +33,7 @@
 }
 
 body {
-    max-width: 1440px;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -134,16 +130,22 @@ hr.orange {
 
 .nav-poperty {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 32px;
 }
 
 .school-part2 {
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 
 
