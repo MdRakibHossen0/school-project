@@ -511,7 +511,8 @@ ul {
     .school-btn,
     .school-title,
     .stories-image-1,
-    .icon {
+    .icon,
+    .curriculumm {
         display: none;
     }
 
